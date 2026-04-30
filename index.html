@@ -279,7 +279,7 @@ Points: <span id="score">0</span> / 3
 <!-- final -->
 <section class="card">
 
-<h1>Another Month of Us</h1>
+<h1>6th Months of Us</h1>
 
 <div class="lovebox">
 <div class="timer-title">TIME WITH YOU</div>
@@ -333,7 +333,7 @@ if(page===2)loadQuestion();
 ================================================= */
 
 let pinInput = '';
-const correctPin = '1402';
+const correctPin = '1101';
 const pinDisplay = document.getElementById("pin");
 
 function renderDots(){
@@ -381,9 +381,9 @@ function checkPin(){
 ================================================= */
 
 const questions=[
-{q:"When did we first meet? ", options:["14 February"," 24 January","22 January"],correct:2},
+{q:"When do we celebrate our anniversary?", options:["01 November","24 January","22 December"],correct:0},
 {q:"Who loves the most?", options:["You","100% me","Both"],correct:2},
-{q:"What’s on my mind most of the time?", options:["Anime","Someone else","You (my pretty girlfriend"],correct:2}
+{q:"What do I do when I miss you?", options:["Sleep","Text youuu","Find sugar daddy :v"],correct:1}
 ];
 
 let currentQ = 0;
@@ -448,7 +448,7 @@ function checkAnswer(i,btn){
 
 function startTimer(){
 
-    const start = new Date("2026-01-22T00:00:00");
+    const start = new Date("2025-11-01T00:00:00");
 
     setInterval(()=>{
 
@@ -482,11 +482,15 @@ function revealMemory(el){
     `;
 
     const text = `
-      Even all the beautiful words in the world still wouldn’t be enough to explain how much you mean to me. Yet here you are, right in my life, and somehow that alone says everything. I admire the little things about you—the way you care about me, the way you talk, and how your eyes light up when you’re excited, especially when it’s with me. 
+      Happy 6th months, sayangg. I can’t believe it’s already been half a year of us. Six months of sharing laughs, stories, late-night talks, random moments, and even the small misunderstandings that made us grow stronger. Every single day with you has been a chapter I never want to skip.
 
-      With you, I’ve found a kind of peace I didn’t even know I was looking for. It’s a kind of comfort I didn’t know I needed until I found it in you. It’s something I can’t find anywhere else, no matter how hard I try. Every moment with you, no matter how small, feels important and meaningful.
+      Thank you for loving me the way you do. Thank you for your patience, your softness, and the way you always try to understand me. You’ve become my comfort, my safe place, and my favorite part of every day. Being with you feels easy, like my heart finally found where it belongs.
       
-      Thank you for being here with me, for every moment, every word, and every feeling we’ve shared. Happy 2nd mensiversary, sayangku. I’m so grateful for you, today and always. ❤️  
+      In these six months, we didn’t just create memories. We built trust, we learned about each other, and we kept choosing to stay. And that means everything to me. I’m so proud of us, of how we handle things, of how we grow together instead of apart.
+      
+      If this is what six months with you feels like, I can’t imagine how beautiful one year, two years, or forever will be. Thank you for being mine, and for letting me be yours.
+      
+      Happy 6th months, my love. Still choosing you today, tomorrow, and always.
       `;
 
     const paragraphs = text.trim().split(/\n\s*\n/);
